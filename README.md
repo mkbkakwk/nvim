@@ -8,7 +8,6 @@
 - ⚡ **快速启动** - 使用 [lazy.nvim](https://github.com/folke/lazy.nvim) 延迟加载插件，保证快速启动
 - 🔄 **模块化设计** - 按不同编辑器环境清晰地组织插件和配置
 - 🎨 **人性化快捷键** - 提供便捷的快捷键绑定和交互菜单
-- 📋 **自动更新检查** - 定期检查并提示插件更新
 
 ## 🚀 快速开始
 
@@ -22,10 +21,10 @@
 
 ```bash
 # Linux/macOS
-git clone https://github.com/yourusername/nvim-config ~/.config/nvim
+git clone https://github.com/mkbkakwk/nvim.git ~/.config/nvim
 
 # Windows
-git clone https://github.com/yourusername/nvim-config %APPDATA%\nvim
+git clone hhttps://github.com/mkbkakwk/nvim.git %USERPROFILE%\AppData\Local\nvim
 ```
 
 ### 首次使用
