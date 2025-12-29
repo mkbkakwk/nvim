@@ -57,12 +57,16 @@ nvim
 ### VS Code 专属配置
 
 VS Code 中启用特定的快捷键和菜单，包括：
+- `<leader>` - 显示 `<leader>` 开头菜单
+- `<localleader>` - 显示 `<localleader>` 开头菜单
 - `<leader>f` - 快速打开文件
-- `<leader>g` - 打开 Git 面板
-- `<leader>r` - 重命名符号
-- `<leader>b` - 切换侧边栏
-- `<leader>e` - 文件资源管理器
-- `<leader>z` - 禅模式
+- ~~`<leader>g` - 打开 Git 面板~~
+- ~~`<leader>r` - 重命名符号~~
+- ~~`<leader>b` - 切换侧边栏~~
+- ~~`<leader>e` - 文件资源管理器~~
+- ~~`<leader>z` - 禅模式~~
+- ~~`<localleader>e` - 调试面板~~
+- ~~`<localleader>d` - 运行/调试~~
 
 ## ⌨️ 快捷键说明
 

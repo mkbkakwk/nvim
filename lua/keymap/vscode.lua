@@ -90,7 +90,7 @@ map("n", "<localleader>", function()
 end)
 
 
--- 4. 定义具体的组合快捷键 (用于盲打和填充菜单)
+-- 4. 定义具体的组合快捷键 (用于盲打和填充菜单 )，必须要有 desc 字段才能被菜单识别
 
 -- === Leader 组 (空格开头) ===
 map("n", "<leader>f", function() vscode.call("workbench.action.quickOpen") end, { desc = "🔍 查找文件" })
