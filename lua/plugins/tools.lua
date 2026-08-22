@@ -17,6 +17,7 @@ return {
 				"lua_ls",
 				"clangd",
 				"basedpyright",
+				"ts_ls",
 			},
 
 			automatic_enable = true,
@@ -35,6 +36,7 @@ return {
 				"stylua",
 				"clang-format",
 				"ruff",
+				"prettier",
 			},
 
 			run_on_start = true,

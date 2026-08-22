@@ -40,6 +40,9 @@ return {
 				python = {
 					"ruff_format",
 				},
+				javascript = {
+					"prettier",
+				},
 			},
 
 			default_format_opts = {
