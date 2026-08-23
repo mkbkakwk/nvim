@@ -43,6 +43,9 @@ return {
 				javascript = {
 					"prettier",
 				},
+				yaml = {
+					"prettier",
+				},
 			},
 
 			default_format_opts = {

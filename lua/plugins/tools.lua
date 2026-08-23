@@ -18,6 +18,7 @@ return {
 				"clangd",
 				"basedpyright",
 				"ts_ls",
+				"yamlls",
 			},
 
 			automatic_enable = true,

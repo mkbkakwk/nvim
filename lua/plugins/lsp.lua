@@ -5,6 +5,7 @@ return {
 		dependencies = {
 			"mason-org/mason.nvim",
 			"saghen/blink.cmp",
+			"b0o/schemastore.nvim",
 		},
 
 		config = function()
@@ -22,8 +23,26 @@ return {
 				},
 			})
 
+			vim.lsp.config("yamlls", {
+				settings = {
+					yaml = {
+						format = {
+							enable = false,
+						},
+
+						schemaStore = {
+							enable = false,
+							url = "",
+						},
+
+						schemas = require("schemastore").yaml.schemas(),
+					},
+				},
+			})
+
 			vim.lsp.enable("lua_ls")
 			vim.lsp.enable("clangd")
+			vim.lsp.enable("yamlls")
 
 			vim.api.nvim_create_autocmd("LspAttach", {
 				callback = function(event)
