@@ -48,6 +48,14 @@ return {
 				},
 			},
 
+			formatters = {
+				clang_format = {
+					prepend_args = {
+						"--style={BasedOnStyle: LLVM, IndentWidth: 8, TabWidth: 8, UseTab: ForIndentation}",
+					},
+				},
+			},
+
 			default_format_opts = {
 				lsp_format = "fallback",
 			},
