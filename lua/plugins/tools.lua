@@ -19,6 +19,7 @@ return {
 				"basedpyright",
 				"ts_ls",
 				"yamlls",
+				"astro",
 			},
 
 			automatic_enable = true,
